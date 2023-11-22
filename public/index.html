@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <main class="container-fluid text-dark">
+    <main class="container-fluid">
         <section  class="row" >
 
             <!-- Sidebar -->
@@ -20,9 +20,9 @@
                     <img class="img-fluid" src="/assets/images/logo.svg" alt="">
                     <p>Dashboard Kit</p>  
                 </div> 
-                <div id="Overview-side" class="d-flex justify-content-start ms-5">
-                    <img class="img-fluid" src="/assets/images/1. overview.svg" alt="">
-                    <p class="ms-4">Overview</p>  
+                <div id="Overview-side" class="d-flex justify-content-center align-items-center">
+                    <img class="img-fluid" src="/assets/images/overview.svg" alt="">
+                    <p>Overview</p>  
                 </div>    
             </section>
             <!-- Sidebar -->
@@ -46,18 +46,18 @@
                 <!-- Header -->
 
                 <!-- List of cards under header -->
-                <section id="TopCards" class="container text-white"> 
+                <section class="container hcard"> 
                     <div class="row text-center">
                         <div class="col-sm-3">
-                            <div class="card ">
-                              <div class="card-body ">
+                            <div class="card">
+                              <div class="card-body">
                                 <h5 class="card-title">Unresolved</h5>
                                 <h1 class="card-text">66</h1>
                               </div>
                             </div>
                         </div>
                         <div class="col-sm-3 ">
-                            <div class="card">
+                            <div class="card Chad">
                               <div class="card-body">
                                 <h5 class="card-title">Overdue</h5>
                                 <h1 class="card-text">16</h1>
@@ -85,39 +85,45 @@
                 <!-- List of cards under header -->
 
                 <!-- Todays Trends -->
-                <section class="container text-white">
-                    <div class="row my-4 text-dark g-0">
-                        <div class="col-sm-8 border border-1 rounded-start">
-                            <div class="d-flex justify-content-between">
-                                <div>
+                <section class="container">
+                    <div class="row my-3 g-0">
+                        <div class="col-sm-8 border rounded-start">
+                            <div class="d-flex text-dark m-3">
+                                <div class="me-auto">
                                     <h6>Todays trends</h6>
                                     <h6>as of 25 May 2019, 09:41 PM</h6>
                                 </div>
-                                <div class="d-flex mx-3">
-                                    <h6>Today</h6>
-                                    <h6>Yesterday</h6>
+                                <div id="TY" class="d-flex justify-content-around">
+                                    <div class="d-flex align-items-center">
+                                        <img src="/assets/images/horizontal.svg" alt="">
+                                        <h6>Today</h6>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <img src="/assets/images/horizontal-1.svg" alt="">
+                                        <h6>Yesterday</h6>
+                                    </div>
                                 </div>
                             </div>
                             <img class="img-fluid" src="/assets/images/full graph.svg" alt="">
                         </div>
-                        <ul id="TrendText" class="col-sm-4 my-0 d-flex flex-column justify-content-around ">
-                            <li class="border text-center flex-fill d-flex flex-column justify-content-center">
+                        <ul id="TrendText" class="col-sm-4 my-0 d-flex flex-column border border-start-0 rounded-end">
+                            <li class="flex-fill d-flex flex-column align-items-center justify-content-center border-top-0">
                                 <h5>Resolved</h5>
                                 <h1>449</h1>
                             </li>
-                            <li class="border text-center flex-fill d-flex flex-column justify-content-center">
+                            <li class="flex-fill d-flex flex-column align-items-center justify-content-center border-top">
                                 <h5>Received</h5>
                                 <h1>426</h1>
                             </li>
-                            <li class="border text-center flex-fill d-flex flex-column justify-content-center">
+                            <li class="flex-fill d-flex flex-column align-items-center justify-content-center border-top">
                                 <h5>Average first response time</h5>
                                 <h1>33m</h1>
                             </li>
-                            <li class="border text-center flex-fill d-flex flex-column justify-content-center">
+                            <li class="flex-fill d-flex flex-column align-items-center justify-content-center border-top">
                                 <h5>Average response time</h5>
                                 <h1>3h 8m</h1>
                             </li>
-                            <li class="border text-center flex-fill d-flex flex-column justify-content-center">
+                            <li class="flex-fill d-flex flex-column align-items-center justify-content-center border-top">
                                 <h5>Resolution within SLA</h5>
                                 <h1>94%</h1>
                             </li>
