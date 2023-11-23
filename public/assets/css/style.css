@@ -48,7 +48,7 @@
   letter-spacing: 1px;
 }
 
-.card:hover {
+.CardHover:hover {
   color: purple;
   border-color: purple;
   cursor: pointer;
